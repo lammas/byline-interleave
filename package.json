@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/lammas/byline-interleave",
   "dependencies": {
-    "byline": "^4.2.1",
-    "event-stream": "^3.3.2"
+    "line-by-line": "^0.1.4"
   }
 }

@@ -2,6 +2,8 @@
 Interleaved line-by-line streaming from multiple streams
 
 It currently assumes that all input streams provide equal number of lines.
+The order of the lines in the consuming end is not guaranteed to be the same
+as the order of the input files.
 
 ## Install
 
@@ -13,8 +15,8 @@ It currently assumes that all input streams provide equal number of lines.
 var interleave = require('byline-interleave');
 
 var stream = interleave(
-  fs.createReadStream('file-1.txt'),
-  fs.createReadStream('file-2.txt')
+  'file-1.txt',
+  'file-2.txt'
 );
 
 stream.on('data', function(data) {

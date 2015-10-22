@@ -7,13 +7,7 @@ var files = [
 	'file2.txt'
 ];
 
-var streams = [
-	fs.createReadStream(files[0]),
-	fs.createReadStream(files[1]),
-	fs.createReadStream(files[2])
-];
-
-var stream = interleave(streams);
+var stream = interleave(files);
 
 stream.on('data', function(data) {
   console.log('COMBINED:', data);
