@@ -47,6 +47,7 @@ function interleave(arrayOfFilePaths) {
     var s = new LineByLineReader(args[i]);
     s.on('line', onLine);
     s.on('end', onEnd);
+    s.on('error', onError);
     streams.push(s);
   }
 
