@@ -1,6 +1,6 @@
 {
   "name": "byline-interleave",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Interleaved line-by-line streaming from multiple streams",
   "main": "byline-interleave.js",
   "repository": {
