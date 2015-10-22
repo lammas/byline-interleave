@@ -1,0 +1,26 @@
+{
+  "name": "byline-interleave",
+  "version": "1.0.0",
+  "description": "Interleaved line-by-line streaming from multiple streams",
+  "main": "byline-interleave.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lammas/byline-interleave.git"
+  },
+  "keywords": [
+    "line-by-line",
+    "byline",
+    "interleaved",
+    "stream"
+  ],
+  "author": "lammas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lammas/byline-interleave/issues"
+  },
+  "homepage": "https://github.com/lammas/byline-interleave",
+  "dependencies": {
+    "byline": "^4.2.1",
+    "event-stream": "^3.3.2"
+  }
+}
