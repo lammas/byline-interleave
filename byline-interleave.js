@@ -21,7 +21,7 @@ function interleave(arrayOfFilePaths) {
   var ended = false;
 
   function onLine(line) {
-    buffer.push(line.toString());
+    buffer.push(line);
     this.pause();
 
     if (buffer.length == numInputs) {
