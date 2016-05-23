@@ -5,9 +5,13 @@ It currently assumes that all input streams provide equal number of lines.
 The order of the lines in the consuming end is not guaranteed to be the same
 as the order of the input files.
 
+[![NPM](https://nodei.co/npm/byline-interleave.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/byline-interleave/)
+
 ## Install
 
-    npm install byline-interleave
+```sh
+npm install byline-interleave
+```
 
 ## Usage
 
